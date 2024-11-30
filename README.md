@@ -23,14 +23,6 @@ AllPro Enterprises is a high-end property maintenance service targeting luxury p
 └── tools/                  # Development tools
 ```
 
-## Features
-
-- Professional pool and deck maintenance
-- AI-enhanced communication system
-- Property manager dashboard
-- Concierge-level service coordination
-- Automated scheduling and reporting
-
 ## Getting Started
 
 ### Prerequisites
