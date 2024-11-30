@@ -1,0 +1,135 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="hero-section">
+    <div class="wave-bg">
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+    </div>
+    <div class="hero-content">
+        <h1 data-aos="fade-up" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3)">Founding Members Program</h1>
+        <p class="lead" data-aos="fade-up" data-aos-delay="200" style="text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3)">Join an exclusive circle of luxury pool owners</p>
+    </div>
+</div>
+
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6" data-aos="fade-right">
+                <h2 class="text-gold mb-4">Exclusive Benefits</h2>
+                <ul class="list-unstyled">
+                    <li class="mb-3"><i class="fas fa-check text-gold me-2"></i> Priority scheduling and service</li>
+                    <li class="mb-3"><i class="fas fa-check text-gold me-2"></i> Dedicated service team</li>
+                    <li class="mb-3"><i class="fas fa-check text-gold me-2"></i> Complimentary premium amenities</li>
+                    <li class="mb-3"><i class="fas fa-check text-gold me-2"></i> 24/7 concierge support</li>
+                    <li class="mb-3"><i class="fas fa-check text-gold me-2"></i> Special event access</li>
+                </ul>
+            </div>
+            <div class="col-md-6" data-aos="fade-left">
+                <img src="https://images.unsplash.com/photo-1469796466635-455ede028aca" class="img-fluid rounded" alt="Luxury Pool">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section bg-light-dark">
+    <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Membership Tiers</h2>
+        <div class="row">
+            <div class="col-md-4" data-aos="fade-up">
+                <div class="card">
+                    <div class="card-body text-center membership-tier tier-gold">
+                        <h3>Gold</h3>
+                        <div class="pricing-toggle">
+                            <select class="form-select" onchange="updatePrice(this, 'gold-price', 500)">
+                                <option value="monthly">Monthly</option>
+                                <option value="quarterly">Quarterly (5% off)</option>
+                                <option value="biannual">Bi-annual (10% off)</option>
+                                <option value="yearly">Yearly (15% off)</option>
+                            </select>
+                        </div>
+                        <div id="gold-price">
+                            <p class="price text-gold">$500</p>
+                        </div>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">Weekly Service</li>
+                            <li class="mb-2">Basic Amenities</li>
+                            <li class="mb-2">Standard Support</li>
+                        </ul>
+                        <button class="btn btn-gold mt-4">Select Plan</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="card">
+                    <div class="card-body text-center membership-tier tier-platinum">
+                        <h3>Platinum</h3>
+                        <div class="pricing-toggle">
+                            <select class="form-select" onchange="updatePrice(this, 'platinum-price', 1000)">
+                                <option value="monthly">Monthly</option>
+                                <option value="quarterly">Quarterly (5% off)</option>
+                                <option value="biannual">Bi-annual (10% off)</option>
+                                <option value="yearly">Yearly (15% off)</option>
+                            </select>
+                        </div>
+                        <div id="platinum-price">
+                            <p class="price text-gold">$1,000</p>
+                        </div>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">2x Weekly Service</li>
+                            <li class="mb-2">Premium Amenities</li>
+                            <li class="mb-2">Priority Support</li>
+                        </ul>
+                        <button class="btn btn-gold mt-4">Select Plan</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+                <div class="card">
+                    <div class="card-body text-center membership-tier tier-diamond">
+                        <h3>Diamond</h3>
+                        <div class="pricing-toggle">
+                            <select class="form-select" onchange="updatePrice(this, 'diamond-price', 2000)">
+                                <option value="monthly">Monthly</option>
+                                <option value="quarterly">Quarterly (5% off)</option>
+                                <option value="biannual">Bi-annual (10% off)</option>
+                                <option value="yearly">Yearly (15% off)</option>
+                            </select>
+                        </div>
+                        <div id="diamond-price">
+                            <p class="price text-gold">$2,000</p>
+                        </div>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">Daily Service</li>
+                            <li class="mb-2">Luxury Amenities</li>
+                            <li class="mb-2">24/7 Concierge</li>
+                        </ul>
+                        <button class="btn btn-gold mt-4">Select Plan</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Future Member Experiences</h2>
+        <div class="row">
+            <div class="col-md-8 mx-auto" data-aos="fade-up">
+                <div class="testimonial text-center">
+                    <div class="coming-soon-badge mb-4">Coming Soon</div>
+                    <h4 class="text-gold mb-4">Your Stories Will Shape Our Legacy</h4>
+                    <p class="mb-4">As we launch our luxury pool service in 2024, this space will be dedicated to sharing the authentic experiences of our founding members. Join us in building a community of excellence in pool care across the Virgin Islands.</p>
+                    <div class="future-testimonial-info mt-4">
+                        <p class="text-muted mb-2">✦ Stories from our inaugural founding members</p>
+                        <p class="text-muted mb-2">✦ Experiences that define our service excellence</p>
+                        <p class="text-muted">✦ Building trust through transparency and results</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

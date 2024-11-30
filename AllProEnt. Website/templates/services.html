@@ -1,0 +1,261 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- Hero Section -->
+<div class="hero-section">
+    <div class="wave-bg">
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+    </div>
+    <div class="hero-content">
+        <h1 data-aos="fade-up">Luxury Pool Services</h1>
+        <p class="lead" data-aos="fade-up" data-aos-delay="200">Exceptional care for extraordinary pools</p>
+    </div>
+</div>
+
+<!-- Service Tiers -->
+<section class="section bg-light-dark">
+    <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Service Tiers</h2>
+        <div class="row">
+            <!-- Island Essential Tier -->
+            <div class="col-md-3" data-aos="fade-up">
+                <div class="card">
+                    <div class="card-body text-center membership-tier">
+                        <h3 class="text-gold">Island Essential</h3>
+                        <div class="pricing-toggle">
+                            <select class="form-select" onchange="updatePrice(this, 'essential-price', 800)">
+                                <option value="monthly">Monthly</option>
+                                <option value="quarterly">Quarterly (5% off)</option>
+                                <option value="biannual">Bi-annual (10% off)</option>
+                                <option value="yearly">Yearly (15% off)</option>
+                            </select>
+                        </div>
+                        <div id="essential-price">
+                            <p class="price text-gold">$800</p>
+                        </div>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">Twice Weekly Service</li>
+                            <li class="mb-2">Basic Chemical Balance</li>
+                            <li class="mb-2">Standard Cleaning</li>
+                            <li class="mb-2">8hr Emergency Response</li>
+                        </ul>
+                        <button class="btn btn-gold mt-4">Select Plan</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Caribbean Premium Tier -->
+            <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
+                <div class="card">
+                    <div class="card-body text-center membership-tier">
+                        <h3 class="text-gold">Caribbean Premium</h3>
+                        <div class="pricing-toggle">
+                            <select class="form-select" onchange="updatePrice(this, 'premium-price', 1500)">
+                                <option value="monthly">Monthly</option>
+                                <option value="quarterly">Quarterly (5% off)</option>
+                                <option value="biannual">Bi-annual (10% off)</option>
+                                <option value="yearly">Yearly (15% off)</option>
+                            </select>
+                        </div>
+                        <div id="premium-price">
+                            <p class="price text-gold">$1,500</p>
+                        </div>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">Thrice Weekly Service</li>
+                            <li class="mb-2">Advanced Water Analysis</li>
+                            <li class="mb-2">Water Feature Care</li>
+                            <li class="mb-2">4hr Emergency Response</li>
+                        </ul>
+                        <button class="btn btn-gold mt-4">Select Plan</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Villa Elite Tier -->
+            <div class="col-md-3" data-aos="fade-up" data-aos-delay="400">
+                <div class="card">
+                    <div class="card-body text-center membership-tier">
+                        <h3 class="text-gold">Villa Elite</h3>
+                        <div class="pricing-toggle">
+                            <select class="form-select" onchange="updatePrice(this, 'elite-price', 3000)">
+                                <option value="monthly">Monthly</option>
+                                <option value="quarterly">Quarterly (5% off)</option>
+                                <option value="biannual">Bi-annual (10% off)</option>
+                                <option value="yearly">Yearly (15% off)</option>
+                            </select>
+                        </div>
+                        <div id="elite-price">
+                            <p class="price text-gold">$3,000</p>
+                        </div>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">Daily Service (Mon-Fri)</li>
+                            <li class="mb-2">Premium Amenities</li>
+                            <li class="mb-2">Staff Coordination</li>
+                            <li class="mb-2">2hr Emergency Response</li>
+                        </ul>
+                        <button class="btn btn-gold mt-4">Select Plan</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Paradise Ultra Tier -->
+            <div class="col-md-3" data-aos="fade-up" data-aos-delay="600">
+                <div class="card">
+                    <div class="card-body text-center membership-tier">
+                        <h3 class="text-gold">Paradise Ultra</h3>
+                        <div class="pricing-toggle">
+                            <select class="form-select" onchange="updatePrice(this, 'ultra-price', 5000)">
+                                <option value="monthly">Monthly</option>
+                                <option value="quarterly">Quarterly (5% off)</option>
+                                <option value="biannual">Bi-annual (10% off)</option>
+                                <option value="yearly">Yearly (15% off)</option>
+                            </select>
+                        </div>
+                        <div id="ultra-price">
+                            <p class="price text-gold">$5,000</p>
+                        </div>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">Multiple Daily Visits</li>
+                            <li class="mb-2">Luxury Amenities</li>
+                            <li class="mb-2">24/7 Concierge</li>
+                            <li class="mb-2">1hr Emergency Response</li>
+                        </ul>
+                        <button class="btn btn-gold mt-4">Select Plan</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Service Schedules -->
+<section class="section">
+    <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Service Frequency</h2>
+        <div class="row">
+            <div class="col-md-6" data-aos="fade-right">
+                <div class="service-schedule">
+                    <h3 class="text-gold mb-4">Regular Maintenance</h3>
+                    <ul class="list-unstyled">
+                        <li class="mb-3"><i class="fas fa-check text-gold me-2"></i> Daily chemical balance checks</li>
+                        <li class="mb-3"><i class="fas fa-check text-gold me-2"></i> Surface cleaning and skimming</li>
+                        <li class="mb-3"><i class="fas fa-check text-gold me-2"></i> Equipment performance monitoring</li>
+                        <li class="mb-3"><i class="fas fa-check text-gold me-2"></i> Filter maintenance</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6" data-aos="fade-left">
+                <div class="service-schedule">
+                    <h3 class="text-gold mb-4">Special Services</h3>
+                    <ul class="list-unstyled">
+                        <li class="mb-3"><i class="fas fa-check text-gold me-2"></i> Storm season preparation</li>
+                        <li class="mb-3"><i class="fas fa-check text-gold me-2"></i> Event preparation and support</li>
+                        <li class="mb-3"><i class="fas fa-check text-gold me-2"></i> Equipment upgrades</li>
+                        <li class="mb-3"><i class="fas fa-check text-gold me-2"></i> Emergency response</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Seasonal Adjustments -->
+<section class="section bg-light-dark">
+    <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Seasonal Care</h2>
+        <div class="row">
+            <div class="col-md-6" data-aos="fade-right">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="text-gold">Storm Season (June-November)</h4>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><i class="fas fa-shield-alt text-gold me-2"></i> Enhanced monitoring</li>
+                            <li class="mb-2"><i class="fas fa-tools text-gold me-2"></i> Equipment protection</li>
+                            <li class="mb-2"><i class="fas fa-bolt text-gold me-2"></i> Emergency response</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6" data-aos="fade-left">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="text-gold">Peak Season (December-April)</h4>
+                        <ul class="list-unstyled">
+                            <li class="mb-2"><i class="fas fa-clock text-gold me-2"></i> Extended service hours</li>
+                            <li class="mb-2"><i class="fas fa-star text-gold me-2"></i> Enhanced amenities</li>
+                            <li class="mb-2"><i class="fas fa-calendar text-gold me-2"></i> Event support</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Add-on Services -->
+<section class="section">
+    <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Additional Services</h2>
+        <div class="row">
+            <div class="col-md-4" data-aos="fade-up">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="text-gold">Equipment Upgrades</h4>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">LED system installation</li>
+                            <li class="mb-2">Automation upgrades</li>
+                            <li class="mb-2">Solar heating</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="text-gold">Event Services</h4>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">Pre-event preparation</li>
+                            <li class="mb-2">Event day staffing</li>
+                            <li class="mb-2">Post-event restoration</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="text-gold">Specialty Maintenance</h4>
+                        <ul class="list-unstyled">
+                            <li class="mb-2">Acid washing</li>
+                            <li class="mb-2">Tile polishing</li>
+                            <li class="mb-2">Deck sealing</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Payment Terms -->
+<section class="section bg-light-dark">
+    <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Payment Terms</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8 text-center">
+                <div class="payment-terms">
+                    <p class="mb-3" data-aos="fade-up">Flexible payment options to suit your needs</p>
+                    <ul class="list-unstyled">
+                        <li class="mb-3" data-aos="fade-up"><i class="fas fa-check text-gold me-2"></i> Monthly billing available</li>
+                        <li class="mb-3" data-aos="fade-up"><i class="fas fa-check text-gold me-2"></i> Annual prepay discount: 10%</li>
+                        <li class="mb-3" data-aos="fade-up"><i class="fas fa-check text-gold me-2"></i> Multiple property discount: 15%</li>
+                        <li class="mb-3" data-aos="fade-up"><i class="fas fa-check text-gold me-2"></i> Corporate account options available</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

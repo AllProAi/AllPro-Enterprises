@@ -1,0 +1,105 @@
+/* Custom Bootstrap overrides for luxury theme */
+:root {
+    --bs-primary: #0A1F3C;    /* Navy blue from logo */
+    --bs-secondary: #4A89DC;  /* Light blue from wave */
+    --bs-dark: #0A1F3C;
+    --bs-light: #FFFFFF;
+    --text-color: #FFFFFF;
+    --accent-color: #4A89DC;
+}
+
+/* Typography */
+.display-1, .display-2, .display-3, .display-4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: var(--bs-secondary);
+    border-color: var(--bs-secondary);
+    color: var(--bs-primary);
+}
+
+.btn-primary:hover {
+    background-color: #3570C0;
+    border-color: #3570C0;
+    color: var(--bs-light);
+}
+
+/* Cards */
+.card {
+    border-radius: 0.5rem;
+    border: 1px solid var(--bs-secondary);
+    background-color: var(--bs-primary);
+}
+
+.card-header {
+    background-color: var(--bs-primary);
+    border-bottom: 1px solid var(--bs-secondary);
+}
+
+/* Forms */
+.form-control {
+    border-radius: 0;
+    border: 1px solid var(--bs-secondary);
+    background-color: var(--bs-primary);
+    color: var(--text-color);
+}
+
+.form-control:focus {
+    border-color: var(--bs-secondary);
+    box-shadow: 0 0 0 0.2rem rgba(74, 137, 220, 0.25);
+}
+
+/* Tables */
+.table {
+    color: var(--text-color);
+}
+
+.table-dark {
+    background-color: var(--bs-primary);
+}
+
+/* Navbar */
+.navbar {
+    background-color: var(--bs-primary);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: var(--text-color);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: var(--bs-secondary);
+}
+
+/* Modals */
+.modal-content {
+    background-color: var(--bs-primary);
+    border: 1px solid var(--bs-secondary);
+}
+
+.modal-header {
+    border-bottom: 1px solid var(--bs-secondary);
+}
+
+.modal-footer {
+    border-top: 1px solid var(--bs-secondary);
+}
+
+/* Badges */
+.badge-primary {
+    background-color: var(--bs-secondary);
+    color: var(--bs-primary);
+}
+
+/* Progress bars */
+.progress {
+    background-color: var(--bs-primary);
+}
+
+.progress-bar {
+    background-color: var(--bs-secondary);
+}

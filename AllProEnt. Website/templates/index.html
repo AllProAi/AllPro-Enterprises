@@ -1,0 +1,137 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- Hero Section -->
+<section class="hero-section">
+    <div class="hero-content">
+        <h1 data-aos="fade-up">Luxury Pool Services</h1>
+        <p class="lead text-light mb-4" data-aos="fade-up" data-aos-delay="200">
+            Building the future of premium pool care - Launching 2024
+        </p>
+        <a href="{{ url_for('founding_members') }}" class="btn btn-gold" data-aos="fade-up" data-aos-delay="400">
+            Be Part of Our Journey
+        </a>
+    </div>
+</section>
+
+<!-- Our Journey Section -->
+<section class="section">
+    <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Our Journey</h2>
+        <div class="row align-items-center">
+            <div class="col-md-6" data-aos="fade-right">
+                <h3 class="text-gold mb-4">Starting Fresh, Aiming High</h3>
+                <p>As a new venture in luxury pool services, we're committed to revolutionizing the industry with our dedication to excellence and personalized care. Our journey begins with a vision to create extraordinary pool experiences for discerning clients.</p>
+                <p class="mt-3">While we're new, our commitment to quality is unwavering. We're building our foundation on transparency, expertise, and a genuine desire to grow alongside our founding members.</p>
+            </div>
+            <div class="col-md-6" data-aos="fade-left">
+                <div class="commitment-points">
+                    <div class="mb-4">
+                        <h4 class="text-gold"><i class="fas fa-star me-2"></i>Our Vision</h4>
+                        <p>To become the premier luxury pool service provider in the Virgin Islands</p>
+                    </div>
+                    <div class="mb-4">
+                        <h4 class="text-gold"><i class="fas fa-handshake me-2"></i>Our Promise</h4>
+                        <p>Dedicated personal service and unwavering commitment to excellence</p>
+                    </div>
+                    <div>
+                        <h4 class="text-gold"><i class="fas fa-users me-2"></i>Our Community</h4>
+                        <p>Building lasting relationships with our founding members</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Services Preview -->
+<section class="section bg-light-dark">
+    <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Our Service Commitment</h2>
+        <div class="row">
+            <div class="col-md-4" data-aos="fade-up">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1427097829427-56a905bf7004" class="card-img-top" alt="Maintenance">
+                    <div class="card-body">
+                        <h5 class="card-title text-gold">Daily Maintenance</h5>
+                        <p class="card-text">Our commitment to professional pool maintenance ensuring pristine conditions.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1506359585186-16ff29581308" class="card-img-top" alt="Chemical Balance">
+                    <div class="card-body">
+                        <h5 class="card-title text-gold">Chemical Balance</h5>
+                        <p class="card-text">Dedicated to expert water chemistry management for optimal swimming conditions.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1603589138334-be34651248b0" class="card-img-top" alt="Amenities">
+                    <div class="card-body">
+                        <h5 class="card-title text-gold">Luxury Amenities</h5>
+                        <p class="card-text">Future premium poolside services and amenity management.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Vision Gallery -->
+<section class="section vision-gallery">
+    <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Our Vision</h2>
+        <p class="description" data-aos="fade-up">Inspiration images of the luxury experience we're committed to delivering</p>
+        <div class="row">
+            <div class="col-md-6" data-aos="fade-right">
+                <div class="img-container">
+                    <img src="https://images.unsplash.com/photo-1527187739440-b0692c9d5821" alt="Luxury Pool Inspiration">
+                    <div class="vision-label">Inspiration</div>
+                </div>
+            </div>
+            <div class="col-md-6" data-aos="fade-left">
+                <div class="img-container">
+                    <img src="https://images.unsplash.com/photo-1600965962361-9035dbfd1c50" alt="Luxury Pool Vision">
+                    <div class="vision-label">Vision</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Launch Timeline -->
+<section class="section bg-light-dark">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-4" data-aos="fade-up">
+                <h3 class="text-gold">2024</h3>
+                <p>Official Launch Year</p>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                <h3 class="text-gold">Limited</h3>
+                <p>Founding Member Spots</p>
+            </div>
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+                <h3 class="text-gold">100%</h3>
+                <p>Commitment to Excellence</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Call to Action -->
+<section class="section" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1549439602-43ebca2327af'); background-size: cover; background-position: center;">
+    <div class="container text-center">
+        <h2 class="section-title" data-aos="fade-up">Grow With Us</h2>
+        <p class="lead mb-4" data-aos="fade-up" data-aos-delay="200">
+            Join our founding members program and help shape the future of luxury pool services
+        </p>
+        <a href="{{ url_for('founding_members') }}" class="btn btn-gold" data-aos="fade-up" data-aos-delay="400">
+            Learn More
+        </a>
+    </div>
+</section>
+{% endblock %}

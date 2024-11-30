@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="hero-section" style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1427097829427-56a905bf7004');">
+    <div class="hero-content">
+        <h1 data-aos="fade-up">Contact Us</h1>
+        <p class="lead" data-aos="fade-up" data-aos-delay="200">Get in touch for premium pool services</p>
+    </div>
+</div>
+
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6" data-aos="fade-right">
+                <h2 class="text-gold mb-4">Get in Touch</h2>
+                <form method="POST" class="contact-form needs-validation" novalidate>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Phone</label>
+                        <input type="tel" class="form-control" id="phone" name="phone">
+                    </div>
+                    <div class="mb-3">
+                        <label for="service" class="form-label">Service Interest</label>
+                        <select class="form-control" id="service" name="service">
+                            <option value="">Select a service</option>
+                            <option value="founding_member">Founding Member Program</option>
+                            <option value="maintenance">Pool Maintenance</option>
+                            <option value="renovation">Pool Renovation</option>
+                            <option value="consultation">Consultation</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-gold">Send Message</button>
+                </form>
+            </div>
+            <div class="col-md-6" data-aos="fade-left">
+                <h2 class="text-gold mb-4">Contact Information</h2>
+                <div class="contact-info">
+                    <div class="mb-4">
+                        <h5 class="text-gold">Address</h5>
+                        <p>123 Marina Way<br>St. Thomas, VI 00802</p>
+                    </div>
+                    <div class="mb-4">
+                        <h5 class="text-gold">Phone</h5>
+                        <p>+1 (340) 555-0123</p>
+                    </div>
+                    <div class="mb-4">
+                        <h5 class="text-gold">Email</h5>
+                        <p>info@allproenterprises.com</p>
+                    </div>
+                    <div class="mb-4">
+                        <h5 class="text-gold">Hours of Operation</h5>
+                        <p>Monday - Friday: 8:00 AM - 6:00 PM<br>
+                           Saturday: 9:00 AM - 4:00 PM<br>
+                           Sunday: By appointment only</p>
+                    </div>
+                </div>
+                <div class="social-links mt-4">
+                    <h5 class="text-gold mb-3">Follow Us</h5>
+                    <a href="#" class="me-3"><i class="fab fa-facebook fa-2x"></i></a>
+                    <a href="#" class="me-3"><i class="fab fa-instagram fa-2x"></i></a>
+                    <a href="#" class="me-3"><i class="fab fa-linkedin fa-2x"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section bg-light-dark">
+    <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Emergency Services</h2>
+        <div class="row">
+            <div class="col-md-6 mx-auto text-center">
+                <p class="mb-4">For emergency pool services, please call our 24/7 hotline:</p>
+                <h3 class="text-gold">(340) 555-9999</h3>
+                <p class="mt-4">Available for founding members and maintenance contract clients</p>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
