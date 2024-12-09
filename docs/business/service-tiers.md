@@ -1,38 +1,107 @@
-# Service Tiers
+# AllPro Enterprises Service Tiers
 
-## Premium Pool & Deck Service
+We have developed a comprehensive tiered service structure that caters to the most discerning property owners in the Virgin Islands. Each tier represents a carefully crafted combination of service frequency, technical sophistication, and concierge support.
 
-### Base Package - $1,500/month
-- Two 2-hour visits per week
-- Complete pool chemical maintenance
-- Deck cleaning and maintenance
-- Equipment checks and basic maintenance
-- Weekly detailed reports
-- 24/7 emergency support
+## Paradise Ultra ($5,000-8,000/month)
 
-### Add-on Services
-- Additional weekly visit: $500/month
-- Extended deck care: $300/month
-- Equipment deep maintenance: $200/month
-- Special event preparation: $250/event
+Our flagship service tier delivers an unparalleled level of care and attention to your aquatic sanctuary. This tier is ideal for luxury estates and high-usage properties requiring daily attention and comprehensive management.
+
+### Core Services
+- Daily multi-point inspections and service visits
+- Comprehensive chemical balancing and water quality management
+- Complete system optimization and monitoring
+- Dedicated concierge support for all pool-related needs
+- Priority emergency response (guaranteed 1-hour response time)
+- Quarterly executive pool assessments with detailed reports
+- Complimentary event support services (4 events per year)
+
+### Additional Features
+- Custom water quality profile development and maintenance
+- Advanced monitoring system installation and management
+- Dedicated account manager
+- Priority scheduling for all services
+- Monthly executive briefings
+
+## Villa Elite ($3,000-4,500/month)
+
+Designed for luxury villas demanding exceptional care, this tier ensures professional daily maintenance while maintaining resort-quality standards.
+
+### Core Services
+- Professional daily maintenance visits
+- Proactive system management and monitoring
+- Weekly detailed technical assessments
+- Priority scheduling for all services
+- Monthly system analysis and optimization
+- Quarterly performance reviews
+
+### Additional Features
+- Regular water quality profiling
+- Standard monitoring system installation
+- Dedicated service team
+- Event preparation services (2 events per year)
+
+## Caribbean Premium ($1,500-2,500/month)
+
+Our entry-level premium service package delivers regular expert maintenance while maintaining high standards of water quality and system performance.
+
+### Core Services
+- Three service visits per week
+- Regular water quality management
+- Standard system monitoring
+- Bi-weekly detailed reports
+- Monthly comprehensive inspections
+
+### Additional Features
+- Basic monitoring system access
+- Standard response time service
+- Regular maintenance scheduling
+
+## Founding Member Program (Limited Availability)
+
+Exclusive to our first seven clients, this program offers enhanced benefits across all service tiers.
+
+### Program Benefits
+- Preferred pricing with 24-month rate guarantee
+- Priority scheduling and emergency response
+- Quarterly executive pool assessments
+- Custom water quality profile development
+- Direct access to ownership team
+- Complimentary event support services
+- Input on service development
 
 ## Service Standards
 
-### Every Visit Includes:
-1. Water testing and chemical balancing
-2. Skimming and cleaning
-3. Equipment inspection
-4. Deck sweeping and washing
-5. Report submission through dashboard
+Regardless of tier selection, all clients receive:
 
-### Weekly Services:
-1. Filter cleaning
-2. Detailed deck inspection
-3. Equipment performance testing
-4. Chemical inventory check
+### Every Visit
+- Complete water testing and chemical balancing
+- Physical cleaning and maintenance
+- Equipment inspection and testing
+- Detailed service documentation
+- Real-time reporting through our client portal
 
-### Monthly Services:
-1. Detailed equipment maintenance
-2. Deep deck cleaning
-3. Comprehensive system check
-4. Client consultation and review
+### Monthly Services
+- Comprehensive system evaluation
+- Detailed equipment maintenance
+- Chemical usage analysis
+- Performance optimization
+- Client consultation as needed
+
+### Emergency Support
+- 24/7 emergency response availability
+- Dedicated support line
+- Rapid response protocols
+- Comprehensive incident reporting
+- Follow-up consultation
+
+## Additional Services
+
+Custom services available across all tiers:
+- Special event preparation
+- Equipment upgrades and modernization
+- System automation installation
+- Custom lighting programming
+- Deck and surrounds maintenance
+- Training for property staff
+
+For detailed information about specific services or to discuss custom requirements, please contact our client services team.
